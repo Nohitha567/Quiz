@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset and base */
 * {
   margin: 0;
@@ -141,4 +142,57 @@ a:hover {
   table {
     font-size: 14px;
   }
+=======
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 40px;
+}
+
+.quiz-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#options button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  width: 80%;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+#options button:hover {
+  background-color: #dcdcdc;
+}
+
+#feedback {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+#next-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+>>>>>>> 34319157f27c4a2b704bfbf840a86387193b2851
 }
